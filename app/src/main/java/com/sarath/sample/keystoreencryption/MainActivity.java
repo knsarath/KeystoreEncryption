@@ -35,13 +35,22 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (view.getId()) {
 
             case R.id.btn_enc:
-                String encrypt = mKeyStoreEncryptionManager.encrypt(mEditText.getText().toString());
-                mResultEditText.setText(encrypt);
+                mKeyStoreEncryptionManager.encrypt(mEditText.getText().toString(), new Callback() {
+                    @Override
+                    public void onDone(String result) {
+                        mResultEditText.setText(result);
+                    }
+                });
                 break;
 
             case R.id.btn_dec:
-                String decrypt = mKeyStoreEncryptionManager.decrypt(mEditText.getText().toString());
-                mResultEditText.setText(decrypt);
+                mKeyStoreEncryptionManager.decrypt(mEditText.getText().toString(), new Callback() {
+                    @Override
+                    public void onDone(String result) {
+                        mResultEditText.setText(result);
+                    }
+                });
+
                 break;
         }
     }
