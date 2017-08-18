@@ -1,4 +1,4 @@
-package com.app.sample.keystoreencryption.encryption.keystore;
+package com.sarath.sample.keystoreencryption.encryption.keystore;
 
 import java.io.IOException;
 import java.security.InvalidAlgorithmParameterException;

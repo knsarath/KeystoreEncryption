@@ -1,10 +1,10 @@
-package com.app.sample.keystoreencryption.encryption.keystore;
+package com.sarath.sample.keystoreencryption.encryption.keystore;
 
 import android.content.Context;
 import android.os.Build;
 
 
-import com.app.sample.keystoreencryption.LogUtils;
+import com.sarath.sample.keystoreencryption.LogUtils;
 
 import java.io.IOException;
 import java.security.InvalidAlgorithmParameterException;

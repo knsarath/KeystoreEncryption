@@ -1,4 +1,4 @@
-package com.app.sample.keystoreencryption;
+package com.sarath.sample.keystoreencryption;
 
 import android.util.Log;
 

@@ -1,4 +1,4 @@
-package com.app.sample.keystoreencryption.encryption.keystore;
+package com.sarath.sample.keystoreencryption.encryption.keystore;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -6,7 +6,7 @@ import android.security.KeyPairGeneratorSpec;
 import android.util.Base64;
 
 
-import com.app.sample.keystoreencryption.LogUtils;
+import com.sarath.sample.keystoreencryption.LogUtils;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -34,8 +34,8 @@ import javax.crypto.NoSuchPaddingException;
 import javax.crypto.spec.SecretKeySpec;
 import javax.security.auth.x500.X500Principal;
 
-import static com.app.sample.keystoreencryption.encryption.keystore.KeyStoreEncryptionManager.ALIAS;
-import static com.app.sample.keystoreencryption.encryption.keystore.KeyStoreEncryptionManager.KEYSTORE_PROVIDER;
+import static com.sarath.sample.keystoreencryption.encryption.keystore.KeyStoreEncryptionManager.ALIAS;
+import static com.sarath.sample.keystoreencryption.encryption.keystore.KeyStoreEncryptionManager.KEYSTORE_PROVIDER;
 
 
 /**

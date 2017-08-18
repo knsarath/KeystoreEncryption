@@ -1,4 +1,4 @@
-package com.app.sample.keystoreencryption;
+package com.sarath.sample.keystoreencryption;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

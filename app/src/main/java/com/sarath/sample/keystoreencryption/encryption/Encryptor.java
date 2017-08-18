@@ -1,8 +1,8 @@
-package com.app.sample.keystoreencryption.encryption;
+package com.sarath.sample.keystoreencryption.encryption;
 
 import android.util.Base64;
 
-import com.app.sample.keystoreencryption.LogUtils;
+import com.sarath.sample.keystoreencryption.LogUtils;
 
 import org.bouncycastle.jce.provider.BouncyCastleProvider;
 
